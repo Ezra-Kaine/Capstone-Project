@@ -1,6 +1,37 @@
-body{
+body {
     background-color: Thistle;
 }
-.navbar{
+.navbar {
     background-color: #b180b1;
+}
+.footer {
+    background-color: #c59fc5;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero p{
+    font-size: 1.2rem;
+}
+.features .card{
+    background-color: gray;
+    color:white;
+    border: none;
+    display:flex ;
+    align-items: center;
+}
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
