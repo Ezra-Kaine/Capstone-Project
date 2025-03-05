@@ -35,3 +35,18 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+#watch{
+    text-decoration: none;
+    color: white;
+}
+#about{
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+.card{
+    text-align: center;
+    color: white;  
+    background-color: black;
+}
