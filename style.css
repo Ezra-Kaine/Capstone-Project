@@ -5,10 +5,12 @@ body {
     background-color: #b180b1;
 }
 .footer {
-    background-color: #c59fc5;
+    background-color: #c59fc5;color: white;
+
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 15px 0;
+    margin-top: auto;
+     width: 100%;
 }
 .hero{
     text-align: center;
@@ -84,4 +86,25 @@ border-radius: 8px;
 .anime-card:hover{
     transform: scale(1.05);
     box-shadow: 0 4px 8px black;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+}
+.social-links a{
+color: whitesmoke;
+margin: 0 10px;
+font-size: 1.5rem;    
+}
+.header{
+    width: 450px;
+    height: 70px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;   
+    display: flex;
+}
+.header img{
+    border-radius: 100%;
+
 }
